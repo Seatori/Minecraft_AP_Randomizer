@@ -158,13 +158,12 @@ public class AdvancementManager {
         add(new ResourceLocation("adventure/play_jukebox_in_meadows")); // Sound of Music
         add(new ResourceLocation("adventure/trade_at_world_height")); // Star Trader
         add(new ResourceLocation("husbandry/leash_all_frog_variants")); // When the Squad Hops into Town
-        add(new ResourceLocation("husbandry/leash_all_frog_variants")); // With Our Powers Combined!
         add(new ResourceLocation("husbandry/froglights")); // With Our Powers Combined!
     }};
 
     public final Set<ResourceLocation> unreasonableAdvancements = new HashSet<>() {{
         add(new ResourceLocation("nether/all_effects")); // How Did We Get Here?
-        add(new ResourceLocation("nether/all_effects")); // How Did We Get Here?
+        add(new ResourceLocation("adventure/adventuring_time")); // Adventuring Time
     }};
 
     private final Set<Long> earnedAdvancements = new HashSet<>();
