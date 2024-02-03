@@ -108,6 +108,26 @@ public class ItemManager {
         put(45041L, endCityCompass);
 
         put(45042L, new ItemStack(Items.SHULKER_BOX, 1));
+
+        ItemStack monumentCompass = new ItemStack(Items.COMPASS, 1);
+        makeCompass(monumentCompass, APStructures.MONUMENT_TAG);
+        addLore(monumentCompass, "Structure Compass (Ocean Monument)", compassLore);
+        put(45048L, monumentCompass);
+        
+        ItemStack mansionCompass = new ItemStack(Items.COMPASS, 1);
+        makeCompass(mansionCompass, APStructures.MANSION_TAG);
+        addLore(mansionCompass, "Structure Compass (Woodland Mansion)", compassLore);
+        put(45049L, mansionCompass);
+
+        ItemStack ancientCityCompass = new ItemStack(Items.COMPASS, 1);
+        makeCompass(ancientCityCompass, APStructures.ANCIENT_CITY_TAG);
+        addLore(ancientCityCompass, "Structure Compass (Ancient City)", compassLore);
+        put(45050L, ancientCityCompass);
+
+        ItemStack trailRuinsCompass = new ItemStack(Items.COMPASS, 1);
+        makeCompass(trailRuinsCompass, APStructures.TRAIL_RUINS_TAG);
+        addLore(trailRuinsCompass, "Structure Compass (Trail Ruins)", compassLore);
+        put(45051L, trailRuinsCompass);
     }};
 
     private final HashMap<Long,TagKey<Structure>> compasses = new HashMap<>() {{
@@ -116,6 +136,10 @@ public class ItemManager {
         put(45039L, APStructures.FORTRESS_TAG);
         put(45040L, APStructures.BASTION_REMNANT_TAG);
         put(45041L, APStructures.END_CITY_TAG);
+        put(45048L, APStructures.MONUMENT_TAG);
+        put(45049L, APStructures.MANSION_TAG);
+        put(45050L, APStructures.ANCIENT_CITY_TAG);
+        put(45051L, APStructures.TRAIL_RUINS_TAG);
 
     }};
 
