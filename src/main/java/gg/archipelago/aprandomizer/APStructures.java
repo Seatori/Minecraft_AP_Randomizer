@@ -34,6 +34,10 @@ public class APStructures {
     public static final TagKey<Structure> END_CITY_TAG = TagKey.create(Registries.STRUCTURE, new ResourceLocation("aprandomizer:end_city"));
     public static final TagKey<Structure> BASTION_REMNANT_TAG = TagKey.create(Registries.STRUCTURE, new ResourceLocation("aprandomizer:bastion_remnant"));
     public static final TagKey<Structure> FORTRESS_TAG = TagKey.create(Registries.STRUCTURE, new ResourceLocation("aprandomizer:fortress"));
+    public static final TagKey<Structure> MONUMENT_TAG = TagKey.create(Registries.STRUCTURE, new ResourceLocation("aprandomizer:monument"));
+    public static final TagKey<Structure> MANSION_TAG = TagKey.create(Registries.STRUCTURE, new ResourceLocation("aprandomizer:mansion"));
+    public static final TagKey<Structure> ANCIENT_CITY_TAG = TagKey.create(Registries.STRUCTURE, new ResourceLocation("aprandomizer:ancient_city"));
+    public static final TagKey<Structure> TRAIL_RUINS_TAG = TagKey.create(Registries.STRUCTURE, new ResourceLocation("aprandomizer:trail_ruins"));
 
 
 }
