@@ -38,6 +38,7 @@ public class ConnectResult {
             }
             if(APClient.slotData.deathlink) {
                 Utils.sendMessageToAll("Welcome to Death Link.");
+                Utils.sendMessageToAll("Successfully loaded new version!");
                 DeathLink.setDeathLinkEnabled(true);
             }
 
